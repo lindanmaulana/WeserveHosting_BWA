@@ -4,6 +4,7 @@ import FrequentlyAskedQuestions from "./components/sections/FrequentlyAskedQuest
 import LogoCompany from "./components/sections/LogoCompany";
 import OurShowCase from "./components/sections/OurShowcase/OurShowcase";
 import StartGrowingToday from "./components/sections/StartGrowingToday/Index";
+import { WeHaveVeryStrong } from "./components/sections/WeHaveVeryStrong";
 import { YourBestChoice } from "./components/sections/YourBestChoice";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Banner />
       <LogoCompany />
       <YourBestChoice />
+      <WeHaveVeryStrong />
       <OurShowCase />
       <FrequentlyAskedQuestions />
       <StartGrowingToday />

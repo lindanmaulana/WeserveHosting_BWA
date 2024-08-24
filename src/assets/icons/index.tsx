@@ -6,6 +6,7 @@ import message2 from "./message2.svg"
 import logo from "./logo-64.svg"
 import cart from "./cart.svg"
 import cube from "./3dcube.svg"
+import rating from "./rating.svg"
 import autoScalling from "./driver-refresh.svg"
 import extraLayer from "./hierarchy-square.svg"
 import cloud from "./cloud-add.svg"
@@ -20,6 +21,7 @@ import antiDdos from "./anti-ddos.svg"
 import autoScale from "./auto-scale.svg"
 import aiPerform from "./ai-perform.svg"
 import topPlugins from "./top-plugins.svg"
+import topPlugins2 from "./topPlugin2.svg"
 export const IconsAll = {
   logo,
   cart,
@@ -29,6 +31,7 @@ export const IconsAll = {
   extraLayer,
   cloud,
   heart,
+  rating,
   aiAutomation,
   vector : {
     vector1,
@@ -43,5 +46,6 @@ export const IconsAll = {
   fastReport,
   antiDdos,
   aiPerform,
-  topPlugins
+  topPlugins,
+  topPlugins2
 };

@@ -4,7 +4,7 @@ import { assets } from "../../../assets/images";
 const Banner = () => {
     return (
         <section className="py-[100px]">
-            <div className="container max-w-6xl h-[550px] flex flex-row p-[50px]">
+            <div className="container max-w-6xl h-[550px] flex flex-row p-[50px] gap-10">
                 <div className="w-[60%] flex flex-col gap-10">
                     <div className="w-80 px-4 py-2 flex items-center gap-2 bg-third rounded-full">
                         <img
@@ -56,7 +56,7 @@ const Banner = () => {
                             <h1 className="font-bold text-lg">
                                 Super Reliable
                             </h1>
-                            <h2 className="text-base font-medium text-[#5D5D7C">
+                            <h2 className="text-base font-medium text-[#5D5D7C]">
                                 24/7 Always Active
                             </h2>
                         </div>
@@ -71,7 +71,7 @@ const Banner = () => {
                             <h1 className="font-bold text-2xl text-center">
                                 +490%
                             </h1>
-                            <h2 className="text-base font-medium text-[#5D5D7C">
+                            <h2 className="text-base font-medium text-[#5D5D7C]">
                                 Engagements
                             </h2>
                         </div>
