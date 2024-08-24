@@ -10,7 +10,7 @@
 
 @layer base {
   body {
-    @apply bg-[#F1F4F5] font-ClashDisplayReguler
+    @apply bg-[#F1F4F5] font-ClashDisplayMedium
   }
 
   @font-face {

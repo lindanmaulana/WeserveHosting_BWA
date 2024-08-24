@@ -56,7 +56,7 @@ const OurShowCase = () => {
         >
           {dataSwiper.map((res) => (
             <SwiperSlide key={res.id}>
-              <div className="flex relative justify-center group ">
+              <div className="relative flex justify-center group ">
                 <img
                   src={res.url}
                   alt=""
