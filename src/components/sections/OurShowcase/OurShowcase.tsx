@@ -3,8 +3,8 @@ import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
-import SwiperComponents from "../swiper/SwiperComponents";
-import { assets } from "../../assets/images";
+import SwiperComponents from "../../swiper/SwiperComponents";
+import { assets } from "../../../assets/images";
 
 interface IDataSwiper {
   id: number | string;

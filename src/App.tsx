@@ -1,5 +1,5 @@
 import FrequentlyAskedQuestions from "./components/sections/FrequentlyAskedQuestions/Index";
-import OurShowCase from "./components/sections/OurShowcase";
+import OurShowCase from "./components/sections/OurShowcase/OurShowcase";
 import StartGrowingToday from "./components/sections/StartGrowingToday/Index";
 
 function App() {
