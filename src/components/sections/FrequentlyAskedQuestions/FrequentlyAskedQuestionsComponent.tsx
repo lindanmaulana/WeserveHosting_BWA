@@ -65,7 +65,7 @@ const FrequentlyAskedQuestionsComponent = (props: FrequentlyProps) => {
 
   console.log(isOpen);
   return (
-    <section className="py[50px]">
+    <section className="pt[50px] pb-[300px]">
       <div className="container max-w-6xl">
         <h2 className="text-[46px] font-semibold text-primary text-center mb-[30px]">
           Frequently Asked Questions

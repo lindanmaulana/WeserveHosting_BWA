@@ -3,7 +3,7 @@ import StartGrowingTodayComponents from "./StartGrowingTodayComponents";
 
 const StartGrowingToday = () => {
   return (
-    <section className="py-[50px]">
+    <section className="-mt-[350px]">
       <div className="container max-w-6xl bg-secondary rounded-3xl p-[50px]">
         <div className="flex items-center justify-center gap-[60px]">
           <div className="flex flex-col w-1/2 gap-10">
