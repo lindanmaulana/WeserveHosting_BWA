@@ -5,6 +5,8 @@ import message2 from "./message2.svg";
 
 import weserveLogo from "./weserve-logo.svg";
 
+import topPlugin2 from "./topPlugin2.svg"
+
 // start growing today
 import topPluginsPurple from "./top-plugins-purple.svg";
 import topPluginsWhite from "./top-plugins-white.svg";
@@ -74,4 +76,5 @@ export const IconsAll = {
   sms,
   call,
   videoPlay,
+  topPlugin2
 };
