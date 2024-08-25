@@ -12,6 +12,7 @@ export default {
       ClashDisplayMedium: ["ClashDisplay-Medium", "serif"],
       ClashDisplaySemiBold: ["ClashDisplay-SemiBold", "serif"],
       ClashDisplayBold: ["ClashDisplay-Bold", "serif"],
+      Poppins: ["Poppins", "serif"],
     },
     extend: {
       colors: {

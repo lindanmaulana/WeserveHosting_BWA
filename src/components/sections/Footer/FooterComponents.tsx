@@ -1,20 +1,25 @@
+import React from "react";
 
 type footerValue = {
   id: number | string,
   title: string
 }
 
-type footerProps = footerValue[]
+type valueProps = {
+  footerTitle: string,
+  footerMenu: footerValue[]
+}
 
-const FooterComponents = (props: footerProps) => {
-  const {dataFooter} = props
+
+const FooterComponents: React.FC<valueProps> = (props) => {
+  const {footerMenu, footerTitle} = props
   return (
     <>
       <div>
-        <h3 className="text-lg font-bold text-third mb-[30px]">Products</h3>
+        <h3 className="text-lg font-bold text-third mb-[30px]">{footerTitle}</h3>
         <ul className="flex flex-col gap-4">
-          {dataFooter.map((res: footerValue) => (
-            <li>
+          {footerMenu.map((res: footerValue) => (
+            <li key={res.id}>
               <a href="" className="text-base font-medium text-[#8D90A8]">
                 {res.title}
               </a>

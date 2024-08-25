@@ -7,10 +7,9 @@ type footerValue = {
     title: string
 }
 
-type footerData = footerValue[]
 
 const Footer = () => {
-    const footerProducts: footerData = [
+    const footerProducts: footerValue[] = [
         {
           id: 1,
           title: "Powerful Reports",
@@ -30,6 +29,50 @@ const Footer = () => {
         {
           id: 5,
           title: "Auto-Scaling Up",
+        },
+      ];
+    const footerResources: footerValue[] = [
+        {
+          id: 1,
+          title: "Support 24/7",
+        },
+        {
+          id: 2,
+          title: "Help Center",
+        },
+        {
+          id: 3,
+          title: "How-to Instruction",
+        },
+        {
+          id: 4,
+          title: "Blog & Tips",
+        },
+        {
+          id: 5,
+          title: "About Us",
+        },
+      ];
+    const footerCompany: footerValue[] = [
+        {
+          id: 1,
+          title: "Privacy and Policy",
+        },
+        {
+          id: 2,
+          title: "Terms and Conditions",
+        },
+        {
+          id: 3,
+          title: "Investor Relations",
+        },
+        {
+          id: 4,
+          title: "Join With Us",
+        },
+        {
+          id: 5,
+          title: "Our Statistics",
         },
       ];
     return (
@@ -75,7 +118,9 @@ const Footer = () => {
               </div>
             </div>
             <div className="col-span-2 grid grid-cols-3 gap-[70px]">
-                <FooterComponents dataFooter={footerProducts} />
+                <FooterComponents footerMenu={footerProducts} footerTitle="Products" />
+                <FooterComponents footerMenu={footerResources} footerTitle="Resources" />
+                <FooterComponents footerMenu={footerCompany} footerTitle="Company" />
             </div>
           </div>
           <h2 className="text-base font-medium text-center text-third py-[50px]">
