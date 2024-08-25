@@ -6,12 +6,7 @@ export default {
       center: true,
     },
     fontFamily: {
-      ClashDisplayReguler: ["ClashDisplay-Regular", "serif"],
-      ClashDisplayLight: ["ClashDisplay-Light", "serif"],
-      ClashDisplayExtraLight: ["ClashDisplay-Extralight", "serif"],
       ClashDisplayMedium: ["ClashDisplay-Medium", "serif"],
-      ClashDisplaySemiBold: ["ClashDisplay-SemiBold", "serif"],
-      ClashDisplayBold: ["ClashDisplay-Bold", "serif"],
       Poppins: ["Poppins", "serif"],
     },
     extend: {

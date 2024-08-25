@@ -20,7 +20,7 @@ const FooterComponents: React.FC<valueProps> = (props) => {
         <ul className="flex flex-col gap-4">
           {footerMenu.map((res: footerValue) => (
             <li key={res.id}>
-              <a href="" className="text-base font-medium text-[#8D90A8]">
+              <a href="" className="text-base font-medium text-[#8D90A8] hover:brightness-50">
                 {res.title}
               </a>
             </li>
