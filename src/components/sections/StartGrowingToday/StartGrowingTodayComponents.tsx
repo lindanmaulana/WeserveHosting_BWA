@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { IconsAll } from "../../../assets/icons";
 
 interface IStartGrowingToday {
@@ -8,16 +7,7 @@ interface IStartGrowingToday {
   iconWhite?: string;
 }
 
-interface IisWhiteState {
-    condition: boolean,
-    id: number | string
-}
-
 const StartGrowingTodayComponents = () => {
-  const [isWhite, setIsWhite] = useState<IisWhiteState>({
-    condition: false,
-    id: 0
-  });
   
   const dataStartGrowingToday: IStartGrowingToday[] = [
     {
@@ -63,14 +53,12 @@ const StartGrowingTodayComponents = () => {
         <a
           href="/"
           key={res.id}
-          onMouseEnter={() => setIsWhite({condition: true, id: res.id})}
-          onMouseLeave={() => setIsWhite({condition: false, id: 0})}
-          className={`flex flex-col items-center group justify-center py-10 gap-5 relative rounded-3xl hover:bg-primary bg-third transition-gloabl`}
+          className={`flex flex-col items-center group justify-center py-10 gap-5 relative rounded-3xl hover:bg-primary bg-third transition-global overflow-hidden`}
         >
           <img
-            src={isWhite.condition && isWhite.id === res.id ? res.iconWhite : res.iconPurple}
+            src={res.iconPurple}
             alt={res.title}
-            className={`group-hover:-translate-y-3 transition-global group-hover:`}
+            className={`group-hover:-translate-y-3 transition-global group-hover:brightness-200`}
           />
           <h2
             className={`text-primary group-hover:text-third transition-global text-lg font-bold group-hover:-translate-y-3 transition-global`}
@@ -82,7 +70,7 @@ const StartGrowingTodayComponents = () => {
           >
             Learn More
           </span>
-          <div className="absolute w-2 rotate-[35deg] top-36 opacity-0 right-40 transition-global group-hover:opacity-100 duration-1000 group-hover:right-14 h-[90px] group-hover:top-8 bg-third blur-[13px]"></div>
+          <div className="absolute w-2 rotate-[35deg] top-36 right-40 transition-global duration-1000 group-hover:right-14 h-[90px] group-hover:top-8 bg-third blur-xl"></div>
         </a>
       ))}
     </>
