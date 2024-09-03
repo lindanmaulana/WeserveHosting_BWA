@@ -41,13 +41,13 @@ export const YourBestChoice = () => {
             <div className="flex flex-row gap-8 px-[50px]">
                 {data.map((items) => {
                     return (
-                        <div className="relative flex flex-col items-start w-64 gap-8 px-5 py-8 overflow-hidden transition-colors duration-300 bg-third hover:bg-primary rounded-2xl group">
+                        <div className="relative flex flex-col items-start w-64 gap-8 px-5 py-8 overflow-hidden transition-colors transition-global duration-300 bg-third hover:bg-primary rounded-2xl group">
                             <img
                                 src={items.icon}
                                 alt="Icon"
-                                className="w-[46px] h-[46px] z-10 group-hover:brightness-200 transition-colors duration-500"
+                                className="w-[46px] h-[46px] z-10 group-hover:brightness-200 transition-colors duration-500 transition-global"
                             />
-                            <div className="z-10 transition-colors duration-500 group-hover:text-third/95">
+                            <div className="z-10 transition-colors duration-500 group-hover:text-third/95  transition-global">
                                 <h3 className="text-2xl font-bold font-Poppins pb-2x">
                                     {items.name}
                                 </h3>
@@ -55,10 +55,10 @@ export const YourBestChoice = () => {
                                     {items.description}
                                 </p>
                             </div>
-                            <button className="z-10 text-lg font-semibold transition-colors text-secondary font-Poppins group-hover:text-third/95 duration-400">
+                            <button className="z-10 text-lg font-semibold transition-colors text-secondary font-Poppins group-hover:text-third/95 duration-400 transition-global">
                                 Learn More
                             </button>
-                            <div className="w-16 h-40 bg-third rotate-[40deg] absolute top-[300px] right-72    group-hover:top-8 group-hover:right-16 rounded-full blur-2xl transition-all duration-1000 "></div>
+                            <div className="w-16 h-40 bg-third rotate-[40deg] absolute top-[300px] right-72    group-hover:top-8 group-hover:right-16 rounded-full blur-2xl transition-all duration-1000 transition-global"></div>
                         </div>
                     );
                 })}

@@ -30,9 +30,9 @@ export const WeHaveVeryStrong = () => {
     ];
 
     return (
-        <section className="pb-[100px] pt-[50px]">
+        <section className="pb-[200px]">
             <div className="container max-w-6xl h-[550px] flex flex-row-reverse justify-between p-[50px] gap-10">
-                <div className="w-[60%] flex flex-col gap-10">
+                <div className="w-[55%] flex flex-col gap-10">
                     <div className="w-[450px] flex flex-col gap-[10px]">
                         <h1 className="text-primary font-ClashDisplaySemiBold leading-none text-[46px]">
                             We Have Very Strong Ecosystem
@@ -70,7 +70,7 @@ export const WeHaveVeryStrong = () => {
                         </button>
                     </div>
                 </div>
-                <div className="w-[40%] relative ">
+                <div className="w-[45%] relative ">
                     <img
                         src={assets.aside}
                         alt="Aside Banner"
