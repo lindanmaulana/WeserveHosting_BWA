@@ -6,13 +6,13 @@ const Banner = () => {
         <section className="py-[100px]">
             <div className="container max-w-6xl h-[550px] flex flex-row p-[50px] gap-10">
                 <div className="w-[60%] flex flex-col gap-10">
-                    <div className="w-80 px-4 py-2 flex items-center gap-2 bg-third rounded-full">
+                    <div className="flex items-center gap-2 px-4 py-2 rounded-full w-80 bg-third">
                         <img
                             src={IconsAll.globe}
                             alt="Globe Icon"
                             className="w-6 h-6"
                         />
-                        <h3 className="text-base font-Poppins font-semibold">
+                        <h3 className="text-base font-semibold font-Poppins">
                             We host more than 120,000 websites
                         </h3>
                     </div>
@@ -26,11 +26,11 @@ const Banner = () => {
                             sales.
                         </p>
                     </div>
-                    <div className="flex flex-row gap-4 items-center">
+                    <div className="flex flex-row items-center gap-4">
                         <button className="px-10 py-4 bg-secondary text-third text-[18px] rounded-full font-Poppins font-bold">
                             Try Free Trial
                         </button>
-                        <button className="flex flex-row text-secondary font-Poppins text-base items-center justify-center gap-2">
+                        <button className="flex flex-row items-center justify-center gap-2 text-base text-secondary font-Poppins">
                             <img
                                 src={IconsAll.message2}
                                 alt="Icon"
@@ -44,16 +44,16 @@ const Banner = () => {
                     <img
                         src={assets.banner}
                         alt="Hero Banner"
-                        className="w-96 absolute right-4 -top-6 -z-10"
+                        className="absolute w-96 right-4 -top-6 -z-10"
                     />
-                    <div className=" flex flex-row gap-4 items-center bg-third absolute p-5 rounded-3xl -top-20 -left-10">
+                    <div className="absolute flex flex-row items-center gap-4 p-5  bg-third rounded-3xl -top-20 -left-10">
                         <img
                             src={IconsAll.cloud}
                             alt="Cloud icon"
                             className="w-[46px] h-[46px]"
                         />
                         <div className="font-Poppins">
-                            <h1 className="font-bold text-lg">
+                            <h1 className="text-lg font-bold">
                                 Super Reliable
                             </h1>
                             <h2 className="text-base font-medium text-[#5D5D7C]">
@@ -61,14 +61,14 @@ const Banner = () => {
                             </h2>
                         </div>
                     </div>
-                    <div className=" flex flex-col gap-4 items-center bg-third absolute p-5 rounded-3xl bottom-6 -right-4">
+                    <div className="absolute flex flex-col items-center gap-4 p-5  bg-third rounded-3xl bottom-6 -right-4">
                         <img
-                            src={IconsAll.autoScale}
+                            src={IconsAll.autoScaleWhite}
                             alt="Auto Scale icon"
                             className="w-[46px] h-[46px]"
                         />
                         <div className="font-Poppins">
-                            <h1 className="font-bold text-2xl text-center">
+                            <h1 className="text-2xl font-bold text-center">
                                 +490%
                             </h1>
                             <h2 className="text-base font-medium text-[#5D5D7C]">
@@ -76,7 +76,7 @@ const Banner = () => {
                             </h2>
                         </div>
                     </div>
-                    <div className="bg-secondary p-5 rounded-full absolute -right-6 top-7">
+                    <div className="absolute p-5 rounded-full bg-secondary -right-6 top-7">
                         <img
                             src={IconsAll.globe2}
                             alt="Globe"
